@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #afa9a9;
+    --secondary-color: #0a3247;
+    --tertiary-color: #2f2d8f;
+}
+
+Body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+ }
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    font-style:italic;
+    font-weight: 100;
+}
+
+header h1 {
+        font-weight: bold;
+        margin: 0;
+        font-size: 40px;
+        color: var(--primary-color);
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    background: var(--primary-color);
+    width: 100%;
+    padding: 25px 35px;
+}
+
+img {
+    height:200px;
+    padding: 10px;
+}
+
+.portion-label {
+    background-color: rgb(225, 225, 235);
+    width: 30%;
+    border: 0 solid rgb(12, 60, 194);
+    border-right-width: thick;
+    text-align:right;
+    padding-right: 10px;
+}
+
+.portion-content {
+   width: 65%;
+   text-align:right;
+   border: 2px dotted;
+}
+
+
+.about-me, .work, .resume, .contact {
+    width:100%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid green;
+    height:auto;
+    min-height:250px;
+
+}
+
+.work project Run-Buddy {
+    
+}
+
+.work project Horiseon {
+
+}
+
+.contact address a {
+    color: var(--secondary-color);
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content {
+    height: 800px;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    display: inline-block;
+}
+
