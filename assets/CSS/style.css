@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #afa9a9;
+    --primary-color: #928d8d;
     --secondary-color: #0a3247;
     --tertiary-color: #2f2d8f;
 }
@@ -34,12 +34,12 @@ header {
 }
 
 header h1 {
-        font-weight: bold;
-        margin: 0;
-        font-size: 40px;
-        color: var(--primary-color);
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 header a {
     text-decoration: none;
@@ -82,17 +82,18 @@ header nav ul li a:hover {
 }
 
 img {
-    height:200px;
+    height:190px;
     padding: 10px;
 }
 
 .portion-label {
-    background-color: rgb(225, 225, 235);
     width: 30%;
     border: 0 solid rgb(12, 60, 194);
     border-right-width: thick;
     text-align:right;
     padding-right: 10px;
+    font-size: 30px;
+    min-height:240px;
 }
 
 .portion-content {
@@ -104,6 +105,22 @@ img {
     width:65%;
 }
 
+
+.portion-content address{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 60px;
+	list-style: none;
+}
+
+ul#horizontal-list li {
+    display:inline;
+    padding: 12px;
+}
+
 .work img {
     border: 1px solid;
     border-color: var(--secondary-color);
@@ -112,11 +129,11 @@ img {
 
 .about-me, .work, .resume, .contact {
     width:100%;
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid green;
+    margin: 5px;
+    padding: 5px;
     height:auto;
     min-height:250px;
+    background-color: rgb(187, 185, 197);
 }
 
 /*container holding image and text */
@@ -149,7 +166,7 @@ p {
     font-size: 16px;
 }
 
-.content {
+.hero {
     height: 800px;
     width: 100%;
 }
@@ -168,3 +185,96 @@ p {
     display: inline-block;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+            padding-bottom: 0;
+            justify-content: center;
+            position: relative;
+        }
+        header h1 {
+            width: 100%;
+            text-align: center;
+        }
+        header nav ul {
+            margin-top: 20px;
+            width: 100%;
+            justify-content: center;
+        }
+        header nav ul li a {
+            font-size: 20px;
+        }
+       
+        .hero {
+            width: 100%;
+        }
+ 
+        .hero-cta {
+            text-align: center;
+        }
+        .section-title {
+            width: 80%;
+         }
+    
+      
+ 
+ 
+ 
+ /* MEDIA QUERY FOR TABLETS AND SMALLER */
+ @media screen and (max-width: 768px) {
+     section {
+         padding: 30px 15px;
+     }
+ 
+     .step h3 {
+         flex: 1 100%;
+         text-align: center;
+     }
+ 
+     .step-info {
+         flex: 2 100%;
+         text-align: center;
+         justify-content: center;
+     }
+ 
+     .step-img {
+         flex: 0 32%;
+         margin-right: 0;
+         margin-top: 15px;
+         margin-bottom: 15px;
+     }
+ 
+     .step-text {
+         flex: 100%;
+     }
+ }
+ 
+ 
+ 
+ /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+ @media screen and (max-width: 575px) {
+     .hero-form button {
+         width: 100%;
+     }
+ 
+     .section-title {
+         width: 95%;
+     }
+ 
+     .intro p {
+         width: 100%;
+     }
+ 
+      
+     .contact-info {
+         text-align: center;
+     }
+ 
+     .contact-info > * {
+         flex: 0 100%;
+     }
+ 
+     .contact-form {
+         order: 3;
+     }
+ }
