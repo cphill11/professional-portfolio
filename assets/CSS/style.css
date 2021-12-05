@@ -98,9 +98,17 @@ img {
 .portion-content {
    width: 65%;
    text-align:right;
-   border: 2px dotted;
 }
 
+.portion-content-work {
+    width:65%;
+}
+
+.work img {
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    border-radius: 15px;  
+}
 
 .about-me, .work, .resume, .contact {
     width:100%;
@@ -109,15 +117,24 @@ img {
     border: 1px solid green;
     height:auto;
     min-height:250px;
-
 }
 
-.work project Run-Buddy {
-    
+/*container holding image and text */
+.container {
+    position:relative;
+    width:auto;
 }
 
-.work project Horiseon {
-
+/*Bottom Right text */
+.text-block {
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(70, 68, 87);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style:italic;
 }
 
 .contact address a {
