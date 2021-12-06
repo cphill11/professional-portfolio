@@ -87,24 +87,26 @@ img {
 }
 
 .portion-label {
-    width: 30%;
-    border: 0 solid rgb(12, 60, 194);
+    width: 25%;
+    border: 0 solid rgb(64, 85, 141);
     border-right-width: thick;
     text-align:right;
     padding-right: 10px;
     font-size: 30px;
+    font-style:italic;
     min-height:240px;
 }
 
 .portion-content {
-   width: 65%;
+   width: 70%;
    text-align:right;
 }
 
 .portion-content-work {
-    width:65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
-
 
 .portion-content address{
 	display: table;   /* Allow the centering to work */
@@ -135,6 +137,12 @@ ul#horizontal-list li {
     min-height:250px;
     background-color: rgb(187, 185, 197);
 }
+.contact address{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 /*container holding image and text */
 .container {
@@ -154,9 +162,27 @@ ul#horizontal-list li {
     font-style:italic;
 }
 
-.contact address a {
+/*start of contact-me CSS 
+#contact {
     color: var(--secondary-color);
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 10px;
+    font-size: 20px;
+    flex: wrap
 }
+
+#contact a {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    flex: 0 0 25%
+    border-right: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -208,44 +234,21 @@ p {
         .hero {
             width: 100%;
         }
- 
-        .hero-cta {
-            text-align: center;
-        }
-        .section-title {
-            width: 80%;
-         }
-    
+    }   
       
- 
- 
- 
+  
  /* MEDIA QUERY FOR TABLETS AND SMALLER */
  @media screen and (max-width: 768px) {
      section {
          padding: 30px 15px;
      }
  
-     .step h3 {
-         flex: 1 100%;
-         text-align: center;
+     #run-buddy a {
+        float:none;
      }
- 
-     .step-info {
-         flex: 2 100%;
-         text-align: center;
-         justify-content: center;
-     }
- 
-     .step-img {
-         flex: 0 32%;
-         margin-right: 0;
-         margin-top: 15px;
-         margin-bottom: 15px;
-     }
- 
-     .step-text {
-         flex: 100%;
+     
+     #horsieon a {
+         float: none;
      }
  }
  
