@@ -1,4 +1,4 @@
-#Professional-portfolio
+# Professional-portfolio
   * A digital representation of my progression through computer programming bootcamp.
 
   ## Purpose
