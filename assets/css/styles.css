@@ -38,7 +38,7 @@ header h1 {
     margin: 0;
     font-size: 40px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 5 5 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -72,11 +72,11 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-.banner {
+.banner-border {
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-    background: var(--primary-color);
+    background: linear-gradient(to right, rgb(111, 134, 227), rgb(29, 20, 50));
     width: 100%;
     padding: 25px 35px;
 }

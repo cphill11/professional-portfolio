@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<!-- meta tag, configuration head section -->
+
 <head>
     <meta charset="UTF-8" />
+    <!-- bootstrap link for if you want to use bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+        
+    <!-- make sure the GoogleFonts link come before the css link if you want to use fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+
+    <!-- add the CDNS bootstrap link for icons before the css link if you want to use icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"/>
+    
+    <!-- add the style sheet here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Criste Phillips, Portfolio</title>
 </head>
-<!-- end meta tag, configuration head section -->
 
-<!-- body of content -->
+
+
 <body>
     <!-- header -->
     <header class="header">
@@ -33,18 +44,15 @@
         </nav>
     </header>
   
-    <!-- end header -->
-    
-    <!-- banner section -->
-    <section class="banner"></section>
-    <!-- end banner section -->
+ 
+    <section class="banner-border"></section>
 
    
  <!--hero section -->
     <section class="hero">
        <article id="about-me" class="about-me">
             <div class="portion-label float-left">
-                <h2>About Me</h2>
+                <h2><strong>About Me</strong></h2>
                 <img src="./assets/images/professional-photo.jpeg" class="float-right" alt="Insert description of image here" /> 
             </div>
 
@@ -57,7 +65,7 @@
        
         <article id="work" class="work">
             <div class="portion-label float-left">
-                <h2>Work</h2>           
+                <h2><strong>Work</strong></h2>           
             </div>
             <div class="portion-content-work float-left">
                                            
@@ -90,9 +98,12 @@
             </div>
         </article>
 
+
+
+
        <article id="resume" class="resume">
             <div class="portion-label float-left">  
-                <h2>Resume</h2>
+                <h2><strong>Resume</strong></h2>
             </div>
 
             <div class="portion-content float-left">
@@ -107,7 +118,7 @@
 
         <article id="contact" class="contact">
             <div class="portion-label float-left">  
-                <h2>Contact Me</h2>
+                <h2><strong>Contact Me</strong></h2>
             </div>
             <div class="portion-content">                     
                 <address>
@@ -123,6 +134,6 @@
         </article>
 
     </section> 
-    <!-- end hero section -->
-<!-- end of body of content -->
+  
+
 </html>
