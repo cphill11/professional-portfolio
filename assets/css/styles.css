@@ -155,11 +155,21 @@ ul#horizontal-list li {
     position:absolute;
     bottom: 20px;
     right: 20px;
-    background-color: rgb(70, 68, 87);
+    background-color: rgb(99, 98, 106);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    font-style:italic;
+    padding-top: 10px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.text-block h3 {
+    font-size: large;
+}
+
+.text-block p {
+    font-size: smaller;
 }
 
 /*start of contact-me CSS 
