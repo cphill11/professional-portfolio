@@ -10,11 +10,12 @@
     --tertiary-color: #2f2d8f;
 }
 
-Body {
+body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
  }
 
+/* START header styling */
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -71,7 +72,9 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/* END header styling */
 
+/* START Span Banner added for flair */
 .banner-border {
     display: flex;
     justify-content: space-between; 
@@ -80,12 +83,16 @@ header nav ul li a:hover {
     width: 100%;
     padding: 25px 35px;
 }
+/* END Span Banner added for flair */
 
+/* START stationary images, photo of self, resume placeholder image */
 img {
     height:190px;
     padding: 10px;
 }
+/* END stationary images, photo of self, resume placeholder image */
 
+/* START left-sided section titles */
 .portion-label {
     width: 100%;
     border: 0 solid rgb(64, 85, 141);
@@ -96,63 +103,35 @@ img {
     font-style:italic;
     min-height:240px;
 }
+/* END left-sided section titles */
 
+/* START right-sided section content */
 .portion-content {
    width: 100%;
    text-align: justify;
 }
+    /* START Work Section */
+    .portion-content-work {
+        display: flex;     
+    }
 
-.portion-content-work {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
+    .portion-content-work img {
+        border: 1px solid;
+        border-color: var(--secondary-color);
+        border-radius: 15px;  
+    }
 
-.portion-content address{
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
 
-ul#horizontal-list {
-	min-width: 60px;
-	list-style: none;
-}
+    /*container holding image and text */
+    .container {
+        position:relative;
+        width:auto;
+        flex: 100%;
+    }
 
-ul#horizontal-list li {
-    display:inline;
-    padding: 12px;
-}
-
-.work img {
-    border: 1px solid;
-    border-color: var(--secondary-color);
-    border-radius: 15px;  
-}
-
-.about-me, .work, .resume, .contact {
-    width:100%;
-    margin: 5px;
-    padding: 5px;
-    height:auto;
-    min-height:250px;
-    background-color: rgb(187, 185, 197);
-}
-.contact address{
-    display:flex;
-    align-items:center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-/*container holding image and text */
-.container {
-    position:relative;
-    width:auto;
-}
-
-/*Bottom Right text */
-.text-block {
-    position:absolute;
+    /* START Label for projects included in work section */
+    .text-block {
+        position:absolute;
     bottom: 20px;
     right: 20px;
     background-color: rgb(99, 98, 106);
@@ -162,15 +141,54 @@ ul#horizontal-list li {
     padding-top: 10px;
     font-style: italic;
     border-radius: 10px;
+    }
+
+    .text-block h3 {
+        font-size: large;
+    }
+
+    .text-block p {
+        font-size: smaller;
+    }
+    /* END Label for projects included in work section */
+
+
+    /* END Work Section */
+
+
+    /* START Contact Me Address Section */
+    ul#horizontal-list {
+        min-width: 60px;
+        list-style: none;
+        align-items: top;
+    }
+
+    ul#horizontal-list li {
+        display: inline;
+        padding: 12px;
+    }
+
+    .portion-content address{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    /* END Contact Me Address Section */
+
+
+
+
+.about-me, .work, .resume, .contact {
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    background-color: rgb(187, 185, 197);
 }
 
-.text-block h3 {
-    font-size: large;
-}
 
-.text-block p {
-    font-size: smaller;
-}
+
 
 a {
     color: #ffffff;
@@ -180,11 +198,7 @@ a {
 p {
     font-size: 16px;
 }
-/*
-.hero {
-    height: 800px;
-    width: 100%;
-}*/
+
 
 .float-left {
     float: left;
