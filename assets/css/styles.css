@@ -62,7 +62,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -171,27 +171,6 @@ ul#horizontal-list li {
 .text-block p {
     font-size: smaller;
 }
-
-/*start of contact-me CSS 
-#contact {
-    color: var(--secondary-color);
-    display:flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding-top: 10px;
-    font-size: 20px;
-    flex: wrap
-}
-
-#contact a {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 25px;
-    flex: 0 0 25%
-    border-right: 6px;
-    padding-left: 60px;
-    padding-right: 60px;
-} */
 
 a {
     color: #ffffff;

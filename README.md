@@ -7,9 +7,16 @@
   ## Built With
     * HTML
     * CSS
+    * Bootstrap
+    * JQuery
 
 	## Website
   https://cphill11.github.io/professional-portfolio/
+
+  ## Image
+
+![Screenshot](/assets/images/screenshot.png)
+
 	
   ## Contribution
   Made with ❤️ by Criste L. Phillips
