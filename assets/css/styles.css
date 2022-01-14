@@ -87,19 +87,19 @@ img {
 }
 
 .portion-label {
-    width: 25%;
+    width: 100%;
     border: 0 solid rgb(64, 85, 141);
     border-right-width: thick;
     text-align:right;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: 30px;
     font-style:italic;
     min-height:240px;
 }
 
 .portion-content {
-   width: 70%;
-   text-align:right;
+   width: 100%;
+   text-align: justify;
 }
 
 .portion-content-work {
@@ -191,11 +191,11 @@ a {
 p {
     font-size: 16px;
 }
-
+/*
 .hero {
     height: 800px;
     width: 100%;
-}
+}*/
 
 .float-left {
     float: left;
