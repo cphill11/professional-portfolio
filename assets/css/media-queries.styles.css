@@ -1,11 +1,12 @@
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1350px) {
    header {
            padding-bottom: 0;
            justify-content: center;
            position: relative;
        }
        header h1 {
+            background: black;
            width: 100%;
            text-align: center;
        }
@@ -17,13 +18,28 @@
        header nav ul li a {
            font-size: 20px;
        }
+       .portion-content-work {
+        flex-direction: column;
+        background-size: contain;
+        position: relative;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex: 0 100%;   
+    }
+       .portion-content ul li a {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex: 0 100%;
+    }
 }
-
-
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     header {
+        background: red;
         padding-bottom: 0;
         justify-content: center;
         position: relative;
@@ -45,7 +61,9 @@
     }
 
     .portion-content-work {
+        flex-direction: column;
         background-size: contain;
+        position: relative;
         display: flex;
         text-align: center;
         width: 100%;
@@ -70,8 +88,8 @@
         order: 3;
     }
 
-    .portion-content address {
-        background-size: contain;
+    .portion-content ul li a {
+        flex-direction: column;
         display: flex;
         text-align: center;
         width: 100%;
@@ -93,8 +111,18 @@
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .portion-content address {
+    .portion-content-work {
+        flex-direction: column;
         background-size: contain;
+        position: relative;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        flex: 0 100%;   
+    }
+    
+    .portion-content ul li a {
+        flex-direction: column;
         display: flex;
         text-align: center;
         width: 100%;
