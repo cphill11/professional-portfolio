@@ -6,7 +6,7 @@
            position: relative;
        }
        header h1 {
-            background: black;
+           /*background: black;*/
            width: 100%;
            text-align: center;
        }
@@ -39,6 +39,25 @@
         width: 100%;
         flex: 0 100%;   
     }
+
+    #run-buddy img {
+        width: 274px;
+        display: flex;
+        order: 1;
+    }
+
+    #horiseon img {
+        width: 274px;
+        display: flex;
+        order: 2;
+    }
+
+    #comics-and-cocktails img {
+        width: 274px;
+        display: flex;
+        order: 3;
+    }
+
         /* address portion */
        .portion-content ul li a {
         flex-direction: column;
@@ -52,7 +71,7 @@
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     header {
-        background: red;
+        /* background: red;*/
         padding-bottom: 0;
         justify-content: center;
         position: relative;
@@ -102,19 +121,23 @@
         flex: 0 100%;   
     }
 
+    
     #run-buddy img {
+        width: 274px;
         display: flex;
         flex-direction: column;
         order: 1;
     }
 
     #horiseon img {
+        width: 274px;
         display: flex;
         flex-direction: column;
         order: 2;
     }
 
     #comics-and-cocktails img {
+        width: 274px;
         display: flex;
         flex-direction: column;
         order: 3;
@@ -145,7 +168,7 @@
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     header {
-        background: green;
+        /* background: green;*/
         padding-bottom: 0;
         justify-content: center;
         position: relative;
