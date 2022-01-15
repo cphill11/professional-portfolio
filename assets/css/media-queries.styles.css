@@ -18,6 +18,14 @@
        header nav ul li a {
            font-size: 20px;
        }
+
+       .portion-label {      
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        height: 100%;
+    }
+
        .portion-content-work {
         flex-direction: column;
         background-size: contain;
@@ -58,6 +66,12 @@
     }
     section {
         padding: 30px 15px;
+    }
+    .portion-label {      
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        height: 100%;
     }
 
     .portion-content-work {
@@ -111,6 +125,20 @@
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    header {
+        background: green;
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    .portion-label {      
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        height: 100%;
+    }
+
     .portion-content-work {
         flex-direction: column;
         background-size: contain;
