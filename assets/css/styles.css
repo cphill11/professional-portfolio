@@ -103,13 +103,24 @@ img {
     font-style:italic;
     min-height:240px;
 }
+
 /* END left-sided section titles */
 
 /* START right-sided section content */
-.portion-content {
-   width: 100%;
-   text-align: justify;
+.about-me, .work, .resume, .contact {
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    background-color: rgb(187, 185, 197);
+    text-align: justify;
 }
+    /* static image in About Me */
+    .float-right {
+        float: right;
+        margin-left: 25px;
+    }
+
     /* START Work Section */
     .portion-content-work {
         display: flex;     
@@ -121,38 +132,35 @@ img {
         border-radius: 15px;  
     }
 
-
-    /*container holding image and text */
+    /*container holding link to work done w/ image and text */
     .container {
         position:relative;
         width:auto;
         flex: 100%;
     }
 
-    /* START Label for projects included in work section */
-    .text-block {
-        position:absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgb(99, 98, 106);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    font-style: italic;
-    border-radius: 10px;
-    }
+        /* START Label for projects included in work section */
+        .text-block {
+            position:absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgb(99, 98, 106);
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            font-style: italic;
+            border-radius: 10px;
+        }
 
-    .text-block h3 {
-        font-size: large;
-    }
+        .text-block h3 {
+            font-size: large;
+        }
 
-    .text-block p {
-        font-size: smaller;
-    }
-    /* END Label for projects included in work section */
-
-
+        .text-block p {
+            font-size: smaller;
+        }
+        /* END Label for projects included in work section */
     /* END Work Section */
 
 
@@ -173,43 +181,14 @@ img {
         align-items: center;
         flex-direction: column;
     }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
     
+    p {
+        font-size: 16px;
+    }  
     /* END Contact Me Address Section */
-
-
-
-
-.about-me, .work, .resume, .contact {
-    width:100%;
-    margin: 5px;
-    padding: 5px;
-    height: auto;
-    background-color: rgb(187, 185, 197);
-}
-
-
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    display: inline-block;
-}
+/* END right-sided section content */
