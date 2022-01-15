@@ -18,5 +18,5 @@
 ![Screenshot](/assets/images/screenshot.png)
 
 	
-## Contribution
-Created by Criste L. Phillips
+## Created by:
+Criste L. Phillips

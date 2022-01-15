@@ -45,24 +45,33 @@
     }
 
     .portion-content-work {
+        background-size: contain;
         display: flex;
+        text-align: center;
         width: 100%;
-        flex: 0 100%;       
+        flex: 0 100%;   
     }
 
-    #run-buddy {
+    #run-buddy img {
+        display: flex;
+        flex-direction: column;
         order: 1;
     }
 
-    #horiseon {
+    #horiseon img {
+        display: flex;
+        flex-direction: column;
         order: 2;
     }
 
-    #comics-and-cocktails {
+    #comics-and-cocktails img {
+        display: flex;
+        flex-direction: column;
         order: 3;
     }
 
     .portion-content address {
+        background-size: contain;
         display: flex;
         text-align: center;
         width: 100%;
@@ -82,13 +91,10 @@
     }
 }
 
-}
-
-
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     .portion-content address {
+        background-size: contain;
         display: flex;
         text-align: center;
         width: 100%;
