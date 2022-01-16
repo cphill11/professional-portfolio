@@ -89,6 +89,9 @@ header nav ul li a:hover {
 img {
     height: 190px;
     padding: 10px;
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    border-radius: 15px;  
 }
 
 
