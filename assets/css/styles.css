@@ -32,6 +32,7 @@ header {
     z-index: 9999;
     font-style:italic;
     font-weight: 100;
+    background: linear-gradient(to right, rgb(69, 80, 126), rgb(29, 20, 50));
 }
 
 header h1 {
@@ -92,6 +93,9 @@ img {
     border: 1px solid;
     border-color: var(--secondary-color);
     border-radius: 15px;  
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 
@@ -109,6 +113,9 @@ img {
     min-height: 350px;
 }
 
+.portion-label h2, h4 {
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
 /* END left-sided section titles */
 
 /* START right-sided section content */
@@ -120,6 +127,11 @@ img {
     background-color: rgb(187, 185, 197);
     text-align: justify;
 }
+
+    .portion-content p {
+        padding-right: 20px;
+        font-size: 20px;
+    }
     /* static image in About Me */
     .float-right {
         float: right;
@@ -190,6 +202,7 @@ img {
     a {
         color: #ffffff;
         text-decoration: none;
+        font-size: 25px;
     }
     
     p {
