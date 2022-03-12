@@ -143,6 +143,13 @@
         order: 3;
     }
 
+    #fetching img {
+        width: 274px;
+        display: flex;
+        flex-direction: column;
+        order: 4;
+    }
+
     /* address portion */
     .portion-content ul li a {
         flex-direction: column;
