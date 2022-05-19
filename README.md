@@ -11,7 +11,7 @@
     * JQuery
 
 	## Website
-  https://cphill11.github.io/professional-portfolio/
+https://github.com/cphill11/professional-portfolio.git
 
   ## Image
 
