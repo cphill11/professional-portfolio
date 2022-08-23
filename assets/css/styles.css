@@ -100,8 +100,6 @@ img {
     -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
-
-
 /* END stationary images, photo of self, resume placeholder image */
 
 /* START left-sided section titles */
@@ -182,8 +180,7 @@ img {
         }
         /* END Label for projects included in work section */
     /* END Work Section */
-
-
+    
     /* START Contact Me Address Section */
     ul#horizontal-list {
         min-width: 60px;

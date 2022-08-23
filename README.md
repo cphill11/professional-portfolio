@@ -3,6 +3,9 @@
 
   ## Purpose
   Allow me to demonstrate expertise as I acquire and refine it throughout the bootcamp experience.
+
+  ## Description
+  Students required to make an initial digital portfolio with which to add future projects for presentation.
   
   ## Built With
     * HTML
@@ -17,6 +20,5 @@
 
 ![Screenshot](/assets/images/screenshot.png)
 
-	
 ## Created by:
 Criste L. Phillips

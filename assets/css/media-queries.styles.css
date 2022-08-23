@@ -19,7 +19,6 @@
            font-size: 20px;
        }
 
-
     .portion-label {      
         display: flex;
         flex-direction: column;
@@ -40,18 +39,6 @@
         width: 100%;
         flex: 0 2 100%;   
     }
-
-    /* #run-buddy img {
-        width: 274px;
-        display: flex;
-        order: 1;
-    }
-
-    #horiseon img {
-        width: 274px;
-        display: flex;
-        order: 2;
-    } */
 
     #comics-and-cocktails img {
         width: 274px;
@@ -127,20 +114,6 @@
         width: 100%;
         flex: 0 100%;   
     }
-   
-    /* #run-buddy img {
-        width: 274px;
-        display: flex;
-        flex-direction: column;
-        order: 1;
-    }
-
-    #horiseon img {
-        width: 274px;
-        display: flex;
-        flex-direction: column;
-        order: 2;
-    } */
 
     #comics-and-cocktails img {
         width: 274px;
