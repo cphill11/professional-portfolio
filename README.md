@@ -13,12 +13,11 @@
     * Bootstrap
     * JQuery
 
-	## Website
-  https://cphill11.github.io/professional-portfolio/
+	## Website  
+  https://github.com/cphill11/professional-portfolio.git
 
-  ## Image
-
-![Screenshot](/assets/images/screenshot.png)
+  ## Image   
+  ![Screenshot](/assets/images/screenshot.png)
 
 ## Created by:
 Criste L. Phillips
